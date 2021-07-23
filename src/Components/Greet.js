@@ -4,7 +4,14 @@ import React from "react";
 // return <h1>hello world</h1>;
 // }
 
-const Greet = () => <h1>hello world</h1>
+const Greet = (props) => {
+    return (
+        <div>
+            <h1>hello {props.name} functional props</h1>
+            {props.children}
+        </div>
+    )
+}
 
 
-export default Greet ;
+export default Greet;
