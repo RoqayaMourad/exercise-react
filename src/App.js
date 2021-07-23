@@ -6,6 +6,7 @@ import Message from "./Components/Message";
 import Counter from "./Components/Counter";
 import FunctionalClick from "./Components/FunctionalClick";
 import ClassClick from "./Components/ClassClick";
+import EventBind from "./Components/EventBind";
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
     <FunctionalClick/>
 
     <ClassClick/>
+
+    <EventBind></EventBind>
 
 
     </div>
