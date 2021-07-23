@@ -3,6 +3,7 @@ import Greet from "./Components/Greet";
 import Welcome from "./Components/Welcome";
 import Hello from "./Components/Hello";
 import Message from "./Components/Message";
+import Counter from "./Components/Counter";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Welcome name="mark" />
     <Hello />
     <Message />
+    <Counter/>
     </div>
   );
 }
