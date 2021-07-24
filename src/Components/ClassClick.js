@@ -9,8 +9,9 @@ class ClassClick extends Component {
 
     render() {
         return (
-            <div>
-                <button onClick={this.clickHandler}> Class Click </button>
+            <div className="section">
+             <h2>Click on class component</h2>
+                <button onClick={this.clickHandler}> Click </button>
             </div>
         )
     }

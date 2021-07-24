@@ -32,10 +32,13 @@ class Counter extends Component {
 
     render() {
         return (
-            <div>
-                <h1> Count - {this.state.count} </h1>
-                <button onClick={() => this.increment()}> Increment</button>
+            <div className="section">
+                <h1> Counter : {this.state.count} </h1>
+                <div>
+                    <button onClick={() => this.increment()}> Increment</button>
                 <button onClick={() => this.decrement()}> decrement</button>
+                </div>
+                
             </div>
         )
     }

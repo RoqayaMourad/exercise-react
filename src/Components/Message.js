@@ -6,21 +6,21 @@ class Message extends Component {
         super()
         // state is varaible 
         this.state = {
-            message : 'Welcome visitor'
+            message : 'Welcome Visitor'
         }
     }
 
     changeMessage(){
         // setstate is function 
         this.setState({
-            message : "Thank you for subscribing"
+            message : "Thank you for Subscribing <3"
         }
         )
     }
 
     render() {
         return (
-            <div>
+            <div className="section">
                 <h1> {this.state.message}  </h1>
                 <button onClick={()=> this.changeMessage()}>Subscribe</button>
             </div>

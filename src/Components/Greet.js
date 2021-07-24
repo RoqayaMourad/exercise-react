@@ -6,8 +6,8 @@ import React from "react";
 
 const Greet = (props) => {
     return (
-        <div>
-            <h1>hello {props.name} functional props</h1>
+        <div className="section">
+            <h2>Hello {props.name} , This is a functional props</h2>
             {props.children}
         </div>
     )

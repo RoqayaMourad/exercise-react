@@ -7,8 +7,9 @@ function FunctionalClick() {
     }
 
     return (
-        <div>
-            <button onClick={clickHandler}> Functional Click</button>
+        <div className = "section">
+        <h2>Click on functional component</h2>
+            <button onClick={clickHandler}>Click</button>
         </div>
     )
 }

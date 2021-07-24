@@ -7,24 +7,36 @@ import Counter from "./Components/Counter";
 import FunctionalClick from "./Components/FunctionalClick";
 import ClassClick from "./Components/ClassClick";
 import EventBind from "./Components/EventBind";
+import ParentComponent from "./Components/ParentComponent";
 
 
 function App() {
   return (
     <div className="App">
-    <Greet name="mark">
-    <p> this is child props</p>
-    </Greet>
-    <Welcome name="mark" />
-    <Hello />
-    <Message />
-    <Counter/>
+    <h1 className="header">
+    React Exercise   <small>(Please open console)</small>
+    </h1>
+   
 
-    <FunctionalClick/>
+      <Greet name="mark">
+        <p className="paragraph"> This is a child props</p>
+      </Greet>
 
-    <ClassClick/>
+      <Welcome name="mark"/>
 
-    <EventBind></EventBind>
+      <Hello />
+
+      <Message />
+
+      <Counter />
+
+      <FunctionalClick />
+
+      <ClassClick />
+
+      <EventBind></EventBind>
+
+      <ParentComponent />
 
 
     </div>

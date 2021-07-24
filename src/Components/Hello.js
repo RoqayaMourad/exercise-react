@@ -11,8 +11,8 @@ import React , {Component} from "react";
 // without JSX
 const Hello = () => {
     return (
-        React.createElement("div", {className:"header"},
-        React.createElement('h1',null,"hello there without JSX"))
+        React.createElement("div", {className:"section"},
+        React.createElement('h2',null,"Hello , This is without JSX"))
     )
 }
 

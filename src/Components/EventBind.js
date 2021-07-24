@@ -6,23 +6,23 @@ class EventBind extends Component {
         super(props)
 
         this.state = {
-            message: "hello from event bind"
+            message: "Hello from Event binding"
         }
 
         this.clickHandler = this.clickHandler.bind(this)
 
     }
 
-    clickHandler(){
+    clickHandler() {
         // if you run this without bind method this will give you undefined why ? cause "this" value is undefined 
         this.setState({
-            message: "goodbye"
+            message: "Goodbye!"
         })
     }
 
     clickHandlerArrow = () => {
         this.setState({
-            message: "goodbye"
+            message: "Goodbye! Again"
         })
     }
 
@@ -31,13 +31,16 @@ class EventBind extends Component {
 
     render() {
         return (
-            <div>
-                <p> {this.state.message}</p>
-                <button onClick={this.clickHandler.bind(this)}> EventBind Click</button>
-                <button onClick={() => this.clickHandler() }> EventBind Click using arrow function </button>
-                <button onClick={this.clickHandler}> EventBind Click using binding in the constructor  </button>
-                <button onClick={this.clickHandlerArrow}> EventBind Click using  class propery as arrow function </button>
+            <div className="section">
+                <h2> {this.state.message}</h2>
+                <div className="btns-div">
 
+
+                    <button onClick={this.clickHandler.bind(this)}> EventBind Click</button>
+                    <button onClick={() => this.clickHandler()}> EventBind Click using arrow function </button>
+                    <button onClick={this.clickHandler}> EventBind Click using binding in the constructor  </button>
+                    <button onClick={this.clickHandlerArrow}> EventBind Click using  class propery as arrow function </button>
+                </div>
             </div>
         )
     }
