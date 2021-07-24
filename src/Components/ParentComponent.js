@@ -7,15 +7,15 @@ import ChildComponent from './ChildComponent'
         super(props)
     
         this.state = {
-             parentName : "parent"
+             parentName : "Parent"
         }
 
         this.greetParent = this.greetParent.bind(this)
     }
 
-    greetParent(){
+    greetParent(childName){
         // this is written with template literals
-        alert (`hello ${this.state.parentName}`)
+        alert (`Hello ${this.state.parentName} From ${childName}`)
     }
     
     render() {

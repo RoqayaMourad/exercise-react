@@ -8,6 +8,9 @@ import FunctionalClick from "./Components/FunctionalClick";
 import ClassClick from "./Components/ClassClick";
 import EventBind from "./Components/EventBind";
 import ParentComponent from "./Components/ParentComponent";
+import UserGreeting from "./Components/UserGreeting";
+import NameList from "./Components/NameList";
+import PersonsList from "./Components/PersonsList";
 
 
 function App() {
@@ -37,6 +40,12 @@ function App() {
       <EventBind></EventBind>
 
       <ParentComponent />
+
+      <UserGreeting />
+
+      <NameList/>
+
+      <PersonsList/>
 
 
     </div>
