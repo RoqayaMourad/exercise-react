@@ -16,6 +16,7 @@ import LifeCycleA from "./Components/LifeCycleA";
 import FragmentDemo from "./Components/FragmentDemo";
 import Table from "./Components/Table";
 import ParentComp from "./Components/ParentComp";
+import RefsDemo from "./Components/RefsDemo";
 
 
 function App() {
@@ -60,8 +61,9 @@ function App() {
 
       <Table />
 
-
       <ParentComp/>
+
+      <RefsDemo/>
 
 
     </div>
