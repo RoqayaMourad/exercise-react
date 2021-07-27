@@ -11,6 +11,7 @@ import ParentComponent from "./Components/ParentComponent";
 import UserGreeting from "./Components/UserGreeting";
 import NameList from "./Components/NameList";
 import PersonsList from "./Components/PersonsList";
+import Form from "./Components/Form";
 
 
 function App() {
@@ -46,6 +47,8 @@ function App() {
       <NameList/>
 
       <PersonsList/>
+
+      <Form></Form>
 
 
     </div>
