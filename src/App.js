@@ -15,6 +15,7 @@ import Form from "./Components/Form";
 import LifeCycleA from "./Components/LifeCycleA";
 import FragmentDemo from "./Components/FragmentDemo";
 import Table from "./Components/Table";
+import ParentComp from "./Components/ParentComp";
 
 
 function App() {
@@ -58,6 +59,9 @@ function App() {
       <FragmentDemo/>
 
       <Table />
+
+
+      <ParentComp/>
 
 
     </div>
