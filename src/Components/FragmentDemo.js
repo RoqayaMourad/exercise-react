@@ -2,10 +2,10 @@ import React from 'react'
 
 function FragmentDemo() {
     return (
-        <div className="section">
+        <React.Fragment >
             <h2>Fragment Demo</h2>
             <p>This descripes the Fragment </p>
-        </div>
+        </React.Fragment>
     )
 }
 
