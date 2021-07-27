@@ -12,6 +12,8 @@ import UserGreeting from "./Components/UserGreeting";
 import NameList from "./Components/NameList";
 import PersonsList from "./Components/PersonsList";
 import Form from "./Components/Form";
+import LifeCycleA from "./Components/LifeCycleA";
+import FragmentDemo from "./Components/FragmentDemo";
 
 
 function App() {
@@ -48,7 +50,11 @@ function App() {
 
       <PersonsList/>
 
-      <Form></Form>
+      <Form/>
+
+      <LifeCycleA/>
+
+      <FragmentDemo/>
 
 
     </div>
