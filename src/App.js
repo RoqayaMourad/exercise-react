@@ -17,6 +17,7 @@ import FragmentDemo from "./Components/FragmentDemo";
 import Table from "./Components/Table";
 import ParentComp from "./Components/ParentComp";
 import RefsDemo from "./Components/RefsDemo";
+import InputFocus from "./Components/InputFocus";
 
 
 function App() {
@@ -64,6 +65,8 @@ function App() {
       <ParentComp/>
 
       <RefsDemo/>
+
+      <InputFocus/>
 
 
     </div>
