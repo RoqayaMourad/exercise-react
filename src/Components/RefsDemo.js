@@ -32,7 +32,7 @@ import React, { Component } from 'react'
 
     render() {
         return (
-            <div>
+            <div className="section">
                 <input type="text" ref={this.inputRef}/>
                 <input type="text" ref={this.setCbRef}/>
                 <button onClick={this.clickHandler}>Click</button>

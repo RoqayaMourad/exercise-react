@@ -14,7 +14,7 @@ export class InputFocus extends Component {
    
     render() {
         return (
-        <div>
+        <div className="section">
             <Input ref={this.componentRef} />
             <button onClick={this.clickHandler}>Focus input</button>
         </div>
