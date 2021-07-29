@@ -19,6 +19,7 @@ import ParentComp from "./Components/ParentComp";
 import RefsDemo from "./Components/RefsDemo";
 import InputFocus from "./Components/InputFocus";
 import FRParentInput from "./Components/FRParentInput";
+import PortalDemo from "./Components/PortalDemo";
 
 
 function App() {
@@ -70,6 +71,8 @@ function App() {
       <InputFocus/>
 
       <FRParentInput/>
+
+      <PortalDemo />
 
 
     </div>
