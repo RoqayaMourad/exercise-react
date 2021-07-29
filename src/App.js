@@ -20,21 +20,23 @@ import RefsDemo from "./Components/RefsDemo";
 import InputFocus from "./Components/InputFocus";
 import FRParentInput from "./Components/FRParentInput";
 import PortalDemo from "./Components/PortalDemo";
+import ClickCounter from "./Components/ClickCounter";
+import HoverCounter from "./Components/HoverCounter";
 
 
 function App() {
   return (
     <div className="App">
-    <h1 className="header">
-    React Exercise   <small>(Please open console)</small>
-    </h1>
-   
+      <h1 className="header">
+        React Exercise   <small>(Please open console)</small>
+      </h1>
+
 
       <Greet name="mark">
         <p className="paragraph"> This is a child props</p>
       </Greet>
 
-      <Welcome name="mark"/>
+      <Welcome name="mark" />
 
       <Hello />
 
@@ -52,27 +54,33 @@ function App() {
 
       <UserGreeting />
 
-      <NameList/>
+      <NameList />
 
-      <PersonsList/>
+      <PersonsList />
 
-      <Form/>
+      <Form />
 
-      <LifeCycleA/>
+      <LifeCycleA />
 
-      <FragmentDemo/>
+      <FragmentDemo />
 
       <Table />
 
-      <ParentComp/>
+      <ParentComp />
 
-      <RefsDemo/>
+      <RefsDemo />
 
-      <InputFocus/>
+      <InputFocus />
 
-      <FRParentInput/>
+      <FRParentInput />
 
       <PortalDemo />
+
+      <div className='section'>
+        <h2>Higher order Component</h2>
+        <ClickCounter name='roqaya' />
+        <HoverCounter name='roqaya' />
+      </div>
 
 
     </div>
